@@ -1,6 +1,6 @@
 html {
   background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(45deg, #A683E3 50%, #E4E9FD 50%);
+  background-image: -webkit-linear-gradient(45deg, #A683E3 0%, #E4E9FD 60%);
   /* min-height: 1000px; */
   font-family: 'Roboto', sans-serif
 }
@@ -63,7 +63,14 @@ p {
   margin-left: 20px;
 }
 
-button{
+.delItem{
+  border: none;
+  background-color: white;
+  position: absolute;
+  right: 20px
+}
+
+.addItem{
   min-height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -95,10 +102,4 @@ input[type="text"]:focus {
 ::placeholder {
   color: grey;
   opacity: 1;
-}
-
-footer {
-  color: white;
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
 }
