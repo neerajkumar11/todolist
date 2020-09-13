@@ -13,7 +13,10 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.set('view engine', 'ejs');
 
-mongoose.connect("mongodb+srv://admin-neeraj:toughPassword@cluster0.mxn2b.mongodb.net/todolistDB?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin-neeraj:Helloji@cluster0.t49cg.mongodb.net/todolistDB?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true});
+
+
+
 
 const itemsSchema = new mongoose.Schema({
   name: String
